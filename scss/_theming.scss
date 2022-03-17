@@ -1,0 +1,114 @@
+// Colour Palette
+$AverMediaRed: #C8161E;
+$themeColor: #505050;
+$subColor: #0528F2;
+$offWhite: #F2F2F2;
+$dark: #1D1D1D;
+$grey: #727272;
+
+
+// Fonts
+$contentFont: 'Helvetica', 'Noto Sans TC', 'Arial', sans-serif!important;
+$title: 'Montserrat', 'Noto Sans TC', 'Helvetica', sans-serif!important;
+
+#product-detail-pw515 {
+    color: $dark;
+    font-family: $contentFont;
+
+    h2,h3,h4,h5,h6, p {
+        margin: 0;
+    }
+    p {
+        font-family: $contentFont;
+        line-height: 1.6em;
+    }
+    img {
+        max-width: 100%;
+    }
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    section {
+        padding: 1.5rem 1.5rem;
+        overflow: hidden;
+        @include rwd-laptop {
+            padding: 2rem 2.5rem ;
+        }
+        @include rwd-desktop {
+            padding: 3rem 3rem ;
+        }
+    }
+    .text-justify {
+        text-align: justify;
+    }
+    .title {
+        font-family: $title;
+        font-weight: 700;
+        font-size: 3rem;
+        text-transform: uppercase;
+        @include rwd-laptop {
+            font-size:4rem;
+        }
+        @include rwd-desktop {
+            font-size: 5rem;
+        }
+    }
+    .section-title {
+        font-family: $title;
+        line-height: 1.1em;
+        font-size: 1.5rem;
+        font-weight: 800;
+        letter-spacing: .04em;
+        text-transform: uppercase;
+        @include rwd-laptop {
+            font-size: 2.5rem;
+        }
+        @include rwd-desktop {
+            font-size: 3rem;
+        }
+    }
+    .sub-title {
+        font-family: $title;
+        font-size: 1.125rem;
+        font-weight: 700;
+        color: $grey;
+        @include rwd-laptop {
+            font-size: 1.3rem;
+        }
+        @include rwd-desktop {
+            font-size: 1.5rem;
+        }
+    }
+    .section-content {
+        font-size: 1.25rem;
+        line-height: 1.6em;
+        max-width: 28em;
+        margin: 0 auto;
+        @include rwd-laptop {
+            font-size: 1.3rem;
+        }
+        @include rwd-desktop {
+            font-size: 1.5rem;
+        }
+    }
+    .bg-offWhite {
+        background: $offWhite;
+    }
+    .theme-btn {
+        font-size: 1.1rem;
+        color: white;
+        background: $AverMediaRed;
+        border-radius: 1.4em;
+        padding: .4em .9em;
+        transition: all .25s ease-in;
+        @include rwd-desktop {
+            font-size: 1.3rem;
+        }
+        &:hover {
+            background: $themeColor;
+            color: white;
+        }
+    }
+}

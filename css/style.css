@@ -1,0 +1,625 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Noto+Sans+TC:wght@400;500;700;900&family=Open+Sans:wght@400;600&display=swap");
+#product-detail-pw515 {
+  color: #1D1D1D;
+  font-family: "Helvetica", "Noto Sans TC", "Arial", sans-serif !important;
+}
+
+#product-detail-pw515 h2, #product-detail-pw515 h3, #product-detail-pw515 h4, #product-detail-pw515 h5, #product-detail-pw515 h6, #product-detail-pw515 p {
+  margin: 0;
+}
+
+#product-detail-pw515 p {
+  font-family: "Helvetica", "Noto Sans TC", "Arial", sans-serif !important;
+  line-height: 1.6em;
+}
+
+#product-detail-pw515 img {
+  max-width: 100%;
+}
+
+#product-detail-pw515 ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#product-detail-pw515 section {
+  padding: 1.5rem 1.5rem;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 960px) {
+  #product-detail-pw515 section {
+    padding: 2rem 2.5rem;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  #product-detail-pw515 section {
+    padding: 3rem 3rem;
+  }
+}
+
+#product-detail-pw515 .text-justify {
+  text-align: justify;
+}
+
+#product-detail-pw515 .title {
+  font-family: "Montserrat", "Noto Sans TC", "Helvetica", sans-serif !important;
+  font-weight: 700;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 960px) {
+  #product-detail-pw515 .title {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  #product-detail-pw515 .title {
+    font-size: 5rem;
+  }
+}
+
+#product-detail-pw515 .section-title {
+  font-family: "Montserrat", "Noto Sans TC", "Helvetica", sans-serif !important;
+  line-height: 1.1em;
+  font-size: 1.5rem;
+  font-weight: 800;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 960px) {
+  #product-detail-pw515 .section-title {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  #product-detail-pw515 .section-title {
+    font-size: 3rem;
+  }
+}
+
+#product-detail-pw515 .sub-title {
+  font-family: "Montserrat", "Noto Sans TC", "Helvetica", sans-serif !important;
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: #727272;
+}
+
+@media screen and (min-width: 960px) {
+  #product-detail-pw515 .sub-title {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  #product-detail-pw515 .sub-title {
+    font-size: 1.5rem;
+  }
+}
+
+#product-detail-pw515 .section-content {
+  font-size: 1.25rem;
+  line-height: 1.6em;
+  max-width: 28em;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 960px) {
+  #product-detail-pw515 .section-content {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  #product-detail-pw515 .section-content {
+    font-size: 1.5rem;
+  }
+}
+
+#product-detail-pw515 .bg-offWhite {
+  background: #F2F2F2;
+}
+
+#product-detail-pw515 .theme-btn {
+  font-size: 1.1rem;
+  color: white;
+  background: #C8161E;
+  border-radius: 1.4em;
+  padding: .4em .9em;
+  transition: all .25s ease-in;
+}
+
+@media screen and (min-width: 1400px) {
+  #product-detail-pw515 .theme-btn {
+    font-size: 1.3rem;
+  }
+}
+
+#product-detail-pw515 .theme-btn:hover {
+  background: #505050;
+  color: white;
+}
+
+#product-detail-pw515 .styleOneTextLeft, #product-detail-pw515 .styleOneTextRight {
+  width: 100%;
+  max-width: 1320px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#product-detail-pw515 .styleOneTextLeft p, #product-detail-pw515 .styleOneTextRight p {
+  font-size: 1.1rem;
+}
+
+@media screen and (min-width: 960px) {
+  #product-detail-pw515 .styleOneTextLeft p, #product-detail-pw515 .styleOneTextRight p {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  #product-detail-pw515 .styleOneTextLeft p, #product-detail-pw515 .styleOneTextRight p {
+    font-size: 1.5rem;
+  }
+}
+
+#product-detail-pw515 .styleOneTextLeft img, #product-detail-pw515 .styleOneTextRight img {
+  object-fit: cover;
+  object-position: top center;
+}
+
+#product-detail-pw515 .styleOneTextLeft figure, #product-detail-pw515 .styleOneTextRight figure {
+  overflow: hidden;
+  min-height: 210px;
+}
+
+@media screen and (min-width: 960px) {
+  #product-detail-pw515 .styleOneTextLeft figure, #product-detail-pw515 .styleOneTextRight figure {
+    min-height: 420px;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  #product-detail-pw515 .styleOneTextLeft .textContent, #product-detail-pw515 .styleOneTextRight .textContent {
+    width: 25%;
+    position: absolute;
+  }
+  #product-detail-pw515 .styleOneTextLeft .textContent p, #product-detail-pw515 .styleOneTextRight .textContent p {
+    padding: 1rem 1.5rem;
+    color: white;
+    background: #505050;
+  }
+  #product-detail-pw515 .styleOneTextLeft figure, #product-detail-pw515 .styleOneTextRight figure {
+    width: 75%;
+    margin-right: 0;
+    margin-left: auto;
+  }
+}
+
+#product-detail-pw515 .toogle-effect-unit .clicker {
+  outline: none;
+  cursor: pointer;
+  display: block;
+}
+
+#product-detail-pw515 #secure-your-interation .toggle {
+  font-family: "Montserrat", "Noto Sans TC", "Helvetica", sans-serif !important;
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding: .5em .8em;
+  border-radius: 32px;
+  transition: all .25s ease-in;
+}
+
+#product-detail-pw515 #secure-your-interation .toggle:hover {
+  cursor: pointer;
+  background-color: #C8161E;
+  color: white;
+}
+
+@media screen and (min-width: 960px) {
+  #product-detail-pw515 #secure-your-interation .toggle {
+    font-size: 1.25rem;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  #product-detail-pw515 .styleOneTextLeft .textContent {
+    top: 10%;
+    left: 5%;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  #product-detail-pw515 .styleOneTextRight .textContent {
+    top: 10%;
+    right: 5%;
+  }
+  #product-detail-pw515 .styleOneTextRight figure {
+    margin-right: auto;
+    margin-left: 0;
+  }
+}
+
+#product-detail-pw515 .toogle-effect-unit .clicker {
+  border-radius: 2em;
+  font-size: 1.3rem;
+  border: solid 1px #727272;
+  background-color: #F2F2F2;
+  width: 3em;
+  height: 1.5em;
+  padding: 0 2rem;
+  transition: all .3s ease-in;
+  position: relative;
+  margin: 0 1rem;
+}
+
+#product-detail-pw515 .toogle-effect-unit .clicker::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 1.7em;
+  height: 1.7em;
+  background-color: #F2F2F2;
+  border: solid 1px #727272;
+  border-radius: 50%;
+  left: -2px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#product-detail-pw515 .toogle-effect-unit .img-wrapper {
+  overflow: hidden;
+  min-height: 240px;
+  position: relative;
+}
+
+@media screen and (min-width: 1400px) {
+  #product-detail-pw515 .toogle-effect-unit .img-wrapper {
+    min-height: 320px;
+  }
+}
+
+#product-detail-pw515 .toogle-effect-unit .img-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: opacity .35s ease-in-out;
+}
+
+#product-detail-pw515 .toogle-effect-unit .img-item img {
+  object-fit: cover;
+  object-position: center center;
+}
+
+#product-detail-pw515 .toogle-effect-unit span {
+  font-family: "Montserrat", "Noto Sans TC", "Helvetica", sans-serif !important;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-align: center;
+  color: #505050;
+}
+
+#product-detail-pw515 .toogle-effect-unit .img-item:first-child {
+  z-index: 2;
+}
+
+#product-detail-pw515 .toogle-effect-unit .hidden {
+  width: 0px;
+  height: 0px;
+}
+
+#product-detail-pw515 .toogle-effect-unit .hidden:checked + .img-wrapper .img-item:first-child {
+  opacity: 0;
+}
+
+#product-detail-pw515 .toogle-effect-unit .hidden:checked + .img-wrapper + div .clicker {
+  background-color: #0528F2;
+}
+
+#product-detail-pw515 .toogle-effect-unit .hidden:checked + .img-wrapper + div .clicker::after {
+  right: -2px;
+  left: auto;
+}
+
+#product-detail-pw515 .hero {
+  background-image: url("https://avermedia.s3.us-west-2.amazonaws.com/web_upload/VC/overview/PW515/main-visual-mobile-lightVersion.png");
+  background-size: cover;
+  background-position: center center;
+  height: 50vh;
+}
+
+@media screen and (min-width: 960px) {
+  #product-detail-pw515 .hero {
+    background-image: url("https://avermedia.s3.us-west-2.amazonaws.com/web_upload/VC/overview/PW515/main-visual-lightVersion.png");
+    height: 60vh;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  #product-detail-pw515 .hero {
+    height: 80vh;
+  }
+}
+
+#product-detail-pw515 .context {
+  width: 90%;
+  font-family: "Montserrat", "Noto Sans TC", "Helvetica", sans-serif !important;
+}
+
+#product-detail-pw515 .context h2, #product-detail-pw515 .context h3 {
+  font-family: "Montserrat", "Noto Sans TC", "Helvetica", sans-serif !important;
+}
+
+#product-detail-pw515 .context h2 {
+  font-size: 3rem;
+  line-height: 1;
+  font-weight: 800;
+}
+
+#product-detail-pw515 .context h3 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+#product-detail-pw515 .context p {
+  font-size: 1.2rem;
+}
+
+@media screen and (min-width: 960px) {
+  #product-detail-pw515 .context {
+    width: 50%;
+  }
+  #product-detail-pw515 .context h2 {
+    font-size: 4.5rem;
+  }
+  #product-detail-pw515 .context h3 {
+    font-size: 3rem;
+  }
+  #product-detail-pw515 .context p {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  #product-detail-pw515 .context h2 {
+    font-size: 5rem;
+  }
+  #product-detail-pw515 .context h3 {
+    font-size: 3.5rem;
+  }
+  #product-detail-pw515 .context p {
+    font-size: 2rem;
+  }
+}
+
+#product-detail-pw515 .certificates {
+  width: 90%;
+}
+
+#product-detail-pw515 .certificates .item {
+  width: 64px;
+  height: 64px;
+  margin-right: 12px;
+}
+
+@media screen and (min-width: 960px) {
+  #product-detail-pw515 .certificates .item {
+    width: 96px;
+    height: 96px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  #product-detail-pw515 .certificates .item {
+    width: 140px;
+    height: 140px;
+  }
+}
+
+#product-detail-pw515 #gets-everyone-involved .image-wrapper {
+  position: relative;
+  width: 342px;
+  height: 220px;
+  margin: 0 auto;
+  background-image: url("https://avermedia.s3.us-west-2.amazonaws.com/web_upload/VC/overview/PW515/range-animation-bg-1.jpg");
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-size: 265%;
+  background-position: top 28% left 56%;
+  animation: gets-everyone-involved-s 7.5s linear infinite;
+}
+
+@media screen and (min-width: 768px) {
+  #product-detail-pw515 #gets-everyone-involved .image-wrapper {
+    width: 560px;
+    height: 360px;
+    animation: gets-everyone-involved-m 7.5s linear infinite;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  #product-detail-pw515 #gets-everyone-involved .image-wrapper {
+    width: 960px;
+    height: 618px;
+  }
+}
+
+#product-detail-pw515 #gets-everyone-involved .sub-screen {
+  width: 98px;
+  height: 72px;
+  position: absolute;
+  right: 5%;
+  bottom: 10%;
+}
+
+@media screen and (min-width: 768px) {
+  #product-detail-pw515 #gets-everyone-involved .sub-screen {
+    width: 130px;
+    height: 96px;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  #product-detail-pw515 #gets-everyone-involved .sub-screen {
+    width: 240px;
+    height: 176px;
+  }
+}
+
+@keyframes gets-everyone-involved-s {
+  0% {
+    background-size: 265%;
+    background-position: top 28% left 56%;
+  }
+  40% {
+    background-size: 265%;
+    background-position: top 28% left 56%;
+  }
+  50% {
+    background-size: 195%;
+    background-position: top 28% left 83%;
+  }
+  70% {
+    background-size: 195%;
+    background-position: top 28% left 83%;
+  }
+  80% {
+    background-size: 120%;
+    background-position: top 28% left 56%;
+  }
+  100% {
+    background-size: 120%;
+    background-position: top 28% left 56%;
+  }
+}
+
+@keyframes gets-everyone-involved-m {
+  0% {
+    background-size: 200%;
+    background-position: top 28% left 58%;
+  }
+  40% {
+    background-size: 200%;
+    background-position: top 28% left 58%;
+  }
+  50% {
+    background-size: 170%;
+    background-position: top 28% left 93%;
+  }
+  70% {
+    background-size: 170%;
+    background-position: top 28% left 93%;
+  }
+  80% {
+    background-size: 120%;
+    background-position: top 28% left 56%;
+  }
+  100% {
+    background-size: 120%;
+    background-position: top 28% left 56%;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  #product-detail-pw515 #secure-your-interation .text-content {
+    inline-size: 25em;
+    word-wrap: break-word;
+  }
+}
+
+#product-detail-pw515 #secure-your-interation .toggle {
+  background-color: #0528F2;
+  color: white;
+}
+
+#product-detail-pw515 #secure-your-interation .toggle-effect {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+#product-detail-pw515 #secure-your-interation .img-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+#product-detail-pw515 #secure-your-interation .img-wrapper#toggle-pw515 {
+  width: 180px;
+  height: 108px;
+}
+
+@media screen and (min-width: 960px) {
+  #product-detail-pw515 #secure-your-interation .img-wrapper#toggle-pw515 {
+    width: 200px;
+    height: 120px;
+  }
+}
+
+#product-detail-pw515 #secure-your-interation .img-wrapper#toggle-video-window {
+  min-height: 480px;
+}
+
+@media screen and (min-width: 1400px) {
+  #product-detail-pw515 #secure-your-interation .img-wrapper#toggle-video-window {
+    min-height: 500px;
+  }
+}
+
+#product-detail-pw515 #secure-your-interation .img-wrapper .img-item:first-child {
+  z-index: 2;
+}
+
+#product-detail-pw515 #secure-your-interation .img-item {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: opacity .3s ease-in-out;
+}
+
+#product-detail-pw515 #secure-your-interation .img-item img {
+  object-fit: cover;
+  object-position: center;
+}
+
+#product-detail-pw515 #secure-your-interation #privacy-shutter + div #toggle-pw515 .img-item:nth-child(2) {
+  opacity: 0;
+}
+
+#product-detail-pw515 #secure-your-interation #privacy-shutter:checked + div #toggle-pw515 .img-item:first-child {
+  opacity: 0;
+}
+
+#product-detail-pw515 #secure-your-interation #privacy-shutter:checked + div #toggle-pw515 .img-item:nth-child(2) {
+  opacity: 1;
+}
+
+#product-detail-pw515 #secure-your-interation #privacy-shutter:checked + div #toggle-video-window .img-item:first-child {
+  opacity: 0;
+}
+
+#product-detail-pw515 #certificates .section-content, #product-detail-pw515 #camEngine .section-content {
+  font-size: 1.2rem;
+}
+
+@media screen and (min-width: 1400px) {
+  #product-detail-pw515 #certificates .section-content, #product-detail-pw515 #camEngine .section-content {
+    font-size: 1.3rem;
+  }
+}
+
+#product-detail-pw515 #camEngine .section-title {
+  max-width: 20em;
+}
+/*# sourceMappingURL=style.css.map */

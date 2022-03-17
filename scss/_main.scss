@@ -1,0 +1,259 @@
+#product-detail-pw515 {
+    .hero {
+        background-image: url('https://avermedia.s3.us-west-2.amazonaws.com/web_upload/VC/overview/PW515/main-visual-mobile-lightVersion.png');
+        background-size: cover;
+        background-position: center center;
+        height: 50vh;
+        @include  rwd-laptop {
+            background-image: url('https://avermedia.s3.us-west-2.amazonaws.com/web_upload/VC/overview/PW515/main-visual-lightVersion.png');
+            height: 60vh;
+        }
+        @include rwd-desktop {
+            height: 80vh;
+        }
+    }
+    .context {
+        width: 90%;
+        font-family: $title;
+        h2,h3 {
+            font-family: $title;
+        }
+        h2 {
+            font-size: 3rem;
+            line-height: 1;
+            font-weight: 800;
+        }
+        h3 {
+            font-size: 2rem;
+            font-weight: 600;
+        }
+        p {
+            font-size: 1.2rem;
+        }
+
+        @include  rwd-laptop {
+            width: 50%;
+
+            h2 {
+                font-size: 4.5rem;
+            }
+            h3 {
+                font-size: 3rem; 
+            }
+            p {
+                font-size: 1.5rem;
+            }
+        }
+        @include  rwd-desktop {
+
+            h2 {
+                font-size: 5rem;
+            }
+            h3 {
+                font-size: 3.5rem; 
+            }
+            p {
+                font-size: 2rem;
+            }
+        }
+    }
+    .certificates {
+        width: 90%;
+        .item {
+            width: 64px;
+            height: 64px;
+            margin-right: 12px;
+            @include  rwd-laptop {
+                width: 96px;
+                height:96px;
+            }
+            @include  rwd-desktop {
+                width: 140px;
+                height:140px;
+            }
+        }
+    }
+
+    #gets-everyone-involved {
+        .image-wrapper {
+            position: relative;
+            width: 342px;
+            height: 220px;
+            margin: 0 auto;
+            background-image: url('https://avermedia.s3.us-west-2.amazonaws.com/web_upload/VC/overview/PW515/range-animation-bg-1.jpg');
+            background-repeat: no-repeat;
+            overflow: hidden;
+            background-size: 265%;
+            background-position: top 28% left 56%;
+            animation: gets-everyone-involved-s 7.5s linear infinite;
+            @include rwd-pad {
+               width: 560px;
+               height: 360px;
+               animation: gets-everyone-involved-m 7.5s linear infinite;
+            }
+            @include rwd-laptop {
+                width: 960px;
+                height: 618px;
+             }
+        }
+        .sub-screen {
+            width:98px;
+            height: 72px;
+            position: absolute;
+            right: 5%; 
+            bottom: 10%;
+            @include rwd-pad {
+                width: 130px;
+                height: 96px;
+            }
+            @include rwd-laptop {
+                width: 240px;
+                height: 176px;
+            }
+        }
+    }
+}
+
+@keyframes gets-everyone-involved-s {
+    // stage 1
+    0% {
+        background-size: 265%;
+        background-position: top 28% left 56%;
+    }
+    40% {
+        background-size: 265%;
+        background-position: top 28% left 56%;
+    }
+    // stage 2
+    50% {
+        background-size: 195%;
+        background-position: top 28% left 83%;
+    }
+    70% {
+        background-size: 195%;
+        background-position: top 28% left 83%;
+    }
+    // stage 3
+    80% {
+        background-size: 120%;
+        background-position: top 28% left 56%;
+    }
+    100% {
+        background-size: 120%;
+        background-position: top 28% left 56%;
+    }
+}
+
+@keyframes gets-everyone-involved-m {
+    // stage 1
+    0% {
+        background-size: 200%;
+        background-position: top 28% left 58%;
+    }
+    40% {
+        background-size: 200%;
+        background-position: top 28% left 58%;
+    }
+    // stage 2
+    50% {
+        background-size: 170%;
+        background-position:  top 28% left 93%;
+    }
+    70% {
+        background-size: 170%;
+        background-position:  top 28% left 93%;
+    }
+    // stage 3
+    80% {
+        background-size: 120%;
+        background-position: top 28% left 56%;
+    }
+    100% {
+        background-size: 120%;
+        background-position: top 28% left 56%;
+    }
+}
+
+#product-detail-pw515 #secure-your-interation {
+    .text-content {
+        @include rwd-desktop {
+            inline-size: 25em;
+            word-wrap:break-word;
+        }
+    }
+    .toggle {
+        @extend %buttonReset;
+        background-color: $subColor;
+        color: white;
+    }
+    .toggle-effect {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+    }
+    .img-wrapper {
+        position:relative;
+        overflow: hidden;
+
+        &#toggle-pw515 {
+           width: 180px;
+           height: 108px;
+           @include rwd-laptop {
+            width: 200px;
+            height: 120px;
+           }
+        }
+        &#toggle-video-window {
+            min-height: 480px;
+            @include rwd-desktop {
+                min-height: 500px;
+            }
+        }
+        .img-item:first-child {
+            z-index: 2;
+        }
+    }
+    .img-item {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        transition: opacity .3s ease-in-out;
+        img {
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+    #privacy-shutter + div {
+        #toggle-pw515 .img-item:nth-child(2) {
+            opacity: 0;
+        }
+    }
+    #privacy-shutter:checked + div {
+        #toggle-pw515 .img-item:first-child {
+            opacity: 0;
+        }
+        #toggle-pw515 .img-item:nth-child(2) {
+            opacity: 1;
+        }
+    }
+    #privacy-shutter:checked + div #toggle-video-window {
+        .img-item:first-child {
+            opacity: 0;
+        }
+    }
+}
+
+#product-detail-pw515 {
+    #certificates .section-content, #camEngine .section-content {
+        font-size: 1.2rem;
+        @include rwd-desktop {
+            font-size: 1.3rem;
+        }
+    }
+    #camEngine .section-title {
+        max-width: 20em;
+    }
+}
